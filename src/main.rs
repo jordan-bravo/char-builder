@@ -1,6 +1,7 @@
 use axum::{
     extract::{Path, State},
-    routing::{get, post, put, delete},
+    // routing::{get, post, put, delete},
+    routing::get,
     Router, Json,
 };
 use cuid::cuid2_slug;
